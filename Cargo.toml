@@ -1,0 +1,16 @@
+[package]
+name = "rust-3d-demo"
+version = "0.1.0"
+authors = ["goodseog <goodseog.yoo@samsung.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/goodseog/rust-graphics"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+console_error_panic_hook = "=0.1.5"
+js-sys = "0.3.19"
+lazy_static = "1.3.0"
+nalgebra = "0.18.0"
